@@ -89,5 +89,26 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 156
 text = "Game Over"
 
+[node name="PineTree9" parent="." instance=ExtResource("2_bxqrk")]
+position = Vector2(343, 738)
+
+[node name="PineTree10" parent="." instance=ExtResource("2_bxqrk")]
+position = Vector2(280, 665)
+
+[node name="PineTree11" parent="." instance=ExtResource("2_bxqrk")]
+position = Vector2(847, 179)
+
+[node name="PineTree12" parent="." instance=ExtResource("2_bxqrk")]
+position = Vector2(1160, 998)
+
+[node name="PineTree13" parent="." instance=ExtResource("2_bxqrk")]
+position = Vector2(1729, 443)
+
+[node name="PineTree14" parent="." instance=ExtResource("2_bxqrk")]
+position = Vector2(931, 499)
+
+[node name="PineTree15" parent="." instance=ExtResource("2_bxqrk")]
+position = Vector2(986, 587)
+
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
